@@ -1,0 +1,9 @@
+﻿cognate_type_code,definition
+COG PHON,Cognate with phonological divergence
+IDENT,Identical cognate forms
+IDENT/COG,Identical cognate subgroup
+LOAN,Loanword
+REP,Lexical replacement
+REP/LOAN,Replacement with loanword element
+SEM,Semantic shift
+SEM/REP,Semantic shift and replacement

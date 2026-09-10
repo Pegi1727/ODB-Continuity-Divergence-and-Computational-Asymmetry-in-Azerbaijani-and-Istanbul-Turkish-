@@ -1,0 +1,11 @@
+﻿field,description
+Concept number,Integer identifier for each Swadesh item
+Concept gloss,English semantic gloss
+Proto Turkic reference form,Reconstructed historical form
+Azerbaijani lexical form,Observed Azerbaijani reflex
+Turkish lexical form,Observed Istanbul Turkish reflex
+Cognate classification,IDENT / COG-PHON / REP / LOAN / SEM etc.
+Phonological correspondence label,Sound-change annotation
+Semantic change annotation,Semantic drift label
+Analytical notes,Free-text coder notes
+Validation status,DRAFT / CHECK
