@@ -41,5 +41,124 @@ ODB-Azerbaijani-Turkish/
 ├── notebooks/                                 # Interactive Jupyter exploration
 ├── results/                                   # Empirical tables (CSVs) and figures
 ├── docs/                                      # Framework documentation & protocols
+🚀 Quick Start
+1. Installation
+bash
+git clone https://github.com/your-repo/ODB-Azerbaijani-Turkish.git
+cd ODB-Azerbaijani-Turkish
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+2. Reproducing All Results
+To run the full end-to-end analytical pipeline and regenerate all tables:
+
+bash
+python analysis/06_integrated_results.py
+📜 Citation
+If you use this dataset, methodology, or codebase, please cite:
+
+bibtex
+@article{merrikhi2026continuity,
+  title={Between Continuity and Divergence: A Multidimensional Analysis of Structural Distance and Computational Asymmetry in North Azerbaijani and Istanbul Turkish},
+  author={Merrikhi, Pegah},
+  journal={Working Paper / Under Review},
+  year={2026}
+}
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+text
+
+#### `LICENSE`
+```text
+MIT License
+
+Copyright (c) 2026 Pegah Merrikhi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+CITATION.cff
+yaml
+cff-version: 1.2.0
+message: "If you use this research software or dataset, please cite it as below."
+title: "ODB-Azerbaijani-Turkish: Codebase and Benchmarks for Oghuz Divergence Paradigm"
+authors:
+  - family-names: "Merrikhi"
+    given-names: "Pegah"
+    email: "pegah.merrikhiii@gmail.com"
+version: 1.0.0
+date-released: 2026-09-10
+license: MIT
+repository-code: "https://github.com/your-username/ODB-Azerbaijani-Turkish"
+keywords:
+  - Azerbaijani
+  - Turkish
+  - Oghuz languages
+  - Lexicostatistics
+  - Tokenization
+  - Generative Erasure
+  - Natural Language Processing
+requirements.txt
+text
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tiktoken>=0.5.0
+transformers>=4.35.0
+jupyter>=1.0.0
+openpyxl>=3.1.0
+environment.yml
+yaml
+name: odb-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.24.0
+  - pandas>=2.0.0
+  - scipy>=1.10.0
+  - statsmodels>=0.14.0
+  - matplotlib>=3.7.0
+  - seaborn>=0.12.0
+  - openpyxl>=3.1.0
+  - pip:
+      - tiktoken>=0.5.0
+      - transformers>=4.35.0
+      - jupyter>=1.0.0
+.gitignore
+gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
 └── paper/                                     # Manuscript assets & appendices
 
