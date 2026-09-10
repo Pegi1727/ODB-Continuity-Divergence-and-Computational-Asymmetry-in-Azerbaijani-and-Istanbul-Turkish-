@@ -21,24 +21,5 @@ The project introduces the **Oghuz Divergence Paradigm (ODB)**, combining classi
 2. **Structural Distance Measures:** Weighted Structural Similarity Index ($WSSI = 0.680$) and Divergence Index ($DI = 0.495$).
 3. **Tokenizer Asymmetry:** Subword tokenizers exhibit an average Azerbaijani-to-Turkish Fertility Ratio of **1.45**, demonstrating systematic computational penalty.
 4. **Generative Erasure in LLMs:** Frontier models show pervasive replacement of Azerbaijani morphology with Turkish standard forms (Error rates: GPT-4o **52.1%**, Gemini 1.5 **48.7%**, Llama-3 **58.2%**, Google Translate **69.3%**).
-
----
-
-## 📂 Repository Structure
-```text
-ODB-Azerbaijani-Turkish/
-├── data/
-│   ├── processed/odb_lexical_dataset.csv     # Coded 207-item Swadesh dataset
-│   └── metadata/data_dictionary.csv           # Feature definitions & schema
-├── src/                                       # Core analytical modules
-│   ├── crR_wssi_di.py                         # Formula implementations for CRR, WSSI, DI
-│   ├── lexical_coding.py                      # Lexical categorization & stats
-│   ├── phonological_analysis.py               # Sound shift distribution
-│   ├── morphological_analysis.py              # Structural parity metrics
-│   ├── tokenizer_analysis.py                  # Fertility ratio computations
-│   └── generative_substitution.py             # LLM/MT audit & Wilson CI
-├── analysis/                                  # Executable replication scripts (01-06)
-├── notebooks/                                 # Interactive Jupyter exploration
-├── results/                                   # Empirical tables (CSVs) and figures
-├── docs/                                      # Framework documentation & protocols
+          # Framework documentation & protocols
 🚀 Quick Start
